@@ -33,7 +33,8 @@
 *or*
 
 Successful response (HTTP status code 201)
-```{
+```
+{
   "title": "Harry Potter and the Half-Blood Prince",
   "author": "JK Rowling",
   "ISBN": "123-4567890123",
@@ -178,6 +179,13 @@ Successful response (HTTP status code 200)
 ```.json
 {
   "message": "Book deleted successfully"
+  "book": {
+  "title": "Harry Potter and the Deathly Hollows",
+  "author": "JK Rowling",
+  "ISBN": "123-4567890123",
+  "price": 5000,
+  "quantity": 7
+  }
 }
 ```
 
